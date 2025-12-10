@@ -1,0 +1,21 @@
+# Lines starting with '#' are comments.
+# This file tells Git which files to ignore.
+
+# Private notes - never push these
+/notes/
+/_private/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Calendar files (personal)
+*.ics
